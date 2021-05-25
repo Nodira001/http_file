@@ -1,0 +1,26 @@
+POST http://localhost:9999/banners.save?id=0&title=1&link=1&content=1
+Content-Type: application/json
+
+###
+POST http://localhost:9999/banners.save?id=0&title=2&link=2&content=2
+Content-Type: application/json
+
+###
+POST http://localhost:9999/banners.removeById?id=1
+Content-Type: application/json
+
+###
+POST http://localhost:9999/banners.removeById?id=2
+Content-Type: application/json
+
+###
+GET http://localhost:9999/banners.getAll
+Content-Type: application/json
+
+###
+GET http://localhost:9999/banners.getById?id=1
+Accept: application/json
+
+###
+
+
